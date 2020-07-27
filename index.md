@@ -64,9 +64,9 @@ layout: default
  * INFO: and fade is value that determines how quickly the next image will fade in
  */
 $.backstretch([
-	"https://www.bu.edu/eng/files/2016/02/waveguide_1.jpg"
-	, "https://unsplash.it/g/1600?image=1068"
-	, "https://unsplash.it/g/1600?image=1011"
+	"https://cdn.wallpapersafari.com/68/62/G3Qran.jpg"
+	, "https://www.parkersoftware.com/wp-content/uploads/2018/05/background-2740731_1920-1024x571.jpg"
+	, "https://www.bu.edu/eng/files/2016/02/waveguide_1.jpg"
 ], {duration: 3000, fade: 1500});
 
 /*
