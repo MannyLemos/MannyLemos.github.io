@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1> Manuel R. Lemos </h1>
+<h1> Manuel <br>Lemos </h1>
 <h3> Mechatronics Engineering </h3>
 <html lang="en">
 <head>
