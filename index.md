@@ -1,4 +1,5 @@
-<h1> Manuel <br> Lemos </h1>
+<h1> Manuel Lemos <br>
+<h4> Mechatronics Engineering Student </h4>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
