@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<Mechatronics Engineering>
+<h1> Mechatronics Engineering </h1>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
