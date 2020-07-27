@@ -44,8 +44,8 @@ layout: default
 <body>
 	<div class="pure-g">
 		<div class="pure-u-1">
-			<h1>Stay tuned</h1>
-			<h2>something new is coming here</h2>
+			<h3>Stay tuned</h3>
+			<h4>something new is coming here</h4>
 			<div id="countdown">
 				<span class="days">00</span>&nbsp;<span class="timeRefDays">days</span>
 				<span class="hours">00</span>&nbsp;<span class="timeRefHours">hours</span>
