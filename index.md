@@ -1,7 +1,7 @@
 <html lang="en">
 <h1>Manuel Lemos</h1>
+<h4>Level 3<br>Mechatronics Engineering Student</h4>
 <head>
-	<h4>Level 3<br>Mechatronics Engineering Student</h4>
 	<meta charset="utf-8">
 	<title>Dummy Page</title>
 	<meta name="description" content="Simple, quick, standalone responsive placeholder Website without any additional resources">
@@ -40,8 +40,7 @@
 <body>
 	<div class="pure-g">
 		<div class="pure-u-1">
-			<h1>Stay tuned</h1>
-			<h2>something new is coming here</h2>
+			<h4>Stay tuned<br>something new is coming here</h4>
 			<div id="countdown">
 				<span class="days">00</span>&nbsp;<span class="timeRefDays">days</span>
 				<span class="hours">00</span>&nbsp;<span class="timeRefHours">hours</span>
