@@ -64,9 +64,16 @@ layout: default
  * INFO: and fade is value that determines how quickly the next image will fade in
  */
 $.backstretch([
-	"https://i.pinimg.com/originals/4a/25/93/4a2593c1025b2a7c03f3fe7ade09a2fb.png"
-	, "https://www.parkersoftware.com/wp-content/uploads/2018/05/background-2740731_1920-1024x571.jpg"
-	, "https://wallpaperplay.com/walls/full/3/7/c/177533.jpg"
+	""https://i.pinimg.com/originals/4a/25/93/4a2593c1025b2a7c03f3fe7ade09a2fb.png"
+	, "https://1.bp.blogspot.com/-8h1PgjBKi24/UCM5Cu1podI/AAAAAAAAAAc/GXwOOptiypY/s1600/nature-wallpaper-hd.jpg"
+	, "https://i.pinimg.com/originals/a1/f4/be/a1f4be2f44d9da33208c5572aa1533bb.jpg"
+	
+/*
+ *"https://i.pinimg.com/originals/4a/25/93/4a2593c1025b2a7c03f3fe7ade09a2fb.png"
+ *"https://www.parkersoftware.com/wp-content/uploads/2018/05/background-2740731_1920-1024x571.jpg"
+ *, "https://wallpaperplay.com/walls/full/3/7/c/177533.jpg"
+ */
+	
 ], {duration: 3000, fade: 1500});
 
 /*
