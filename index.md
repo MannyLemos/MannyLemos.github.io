@@ -59,9 +59,9 @@
  * INFO: and fade is value that determines how quickly the next image will fade in
  */
 $.backstretch([
-	"https://unsplash.it/g/1600?image=1073"
-	, "https://unsplash.it/g/1600?image=1068"
-	, "https://unsplash.it/g/1600?image=1011"
+	"https://i.pinimg.com/originals/a1/f4/be/a1f4be2f44d9da33208c5572aa1533bb.jpg"
+	, "https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd19-minty-01-leaf_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=eeb223b13539feb7925af0a1945b5e0c"
+	, "https://www.wallpapermania.eu/images/lthumbs/2018-08/9920_Cold-mountain-river-and-beautiful-nature-landscape.jpg"
 ], {duration: 3000, fade: 750});
 
 /*
