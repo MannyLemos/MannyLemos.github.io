@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<h1> Mechatronics Engineering </h1>
+<h1> Manuel R. Lemos </h1>
+<h3> Mechatronics Engineering </h3>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
