@@ -64,7 +64,7 @@ layout: default
  * INFO: and fade is value that determines how quickly the next image will fade in
  */
 $.backstretch([
-	"https://unsplash.it/g/1600?image=1073"
+	"https://www.bu.edu/eng/files/2016/02/waveguide_1.jpg"
 	, "https://unsplash.it/g/1600?image=1068"
 	, "https://unsplash.it/g/1600?image=1011"
 ], {duration: 3000, fade: 1500});
