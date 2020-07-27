@@ -61,7 +61,7 @@
 $.backstretch([
 	"https://thewallpaper.co//wp-content/uploads/2017/10/nature-samsung-hd-nature-wallpapers-water-high-resolution-evening-rocks-view.jpg"
 	, "https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd19-minty-01-leaf_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=eeb223b13539feb7925af0a1945b5e0c"
-	, "https://www.wallpapermania.eu/images/lthumbs/2018-08/9920_Cold-mountain-river-and-beautiful-nature-landscape.jpg"
+	, "https://cdn.miscellaneoushi.com/1680x1050/20121022/moss%201680x1050%20nature%20looking%20for%20high%20res%20moss%20pictures%201680x1050%20wallpaper_www.miscellaneoushi.com_90.jpg"
 ], {duration: 3000, fade: 750});
 
 /*
