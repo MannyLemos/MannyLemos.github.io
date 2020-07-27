@@ -1,9 +1,4 @@
----
-layout: default
----
-
-<h1> Manuel <br>Lemos </h1>
-<h3> Mechatronics Engineering </h3>
+<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -44,8 +39,8 @@ layout: default
 <body>
 	<div class="pure-g">
 		<div class="pure-u-1">
-			<h3>Stay tuned</h3>
-			<h4>something new is coming here</h4>
+			<h1>Stay tuned</h1>
+			<h2>something new is coming here</h2>
 			<div id="countdown">
 				<span class="days">00</span>&nbsp;<span class="timeRefDays">days</span>
 				<span class="hours">00</span>&nbsp;<span class="timeRefHours">hours</span>
@@ -64,14 +59,15 @@ layout: default
  * INFO: and fade is value that determines how quickly the next image will fade in
  */
 $.backstretch([
-	"https://i.pinimg.com/originals/4a/25/93/4a2593c1025b2a7c03f3fe7ade09a2fb.png"
-	"https://1.bp.blogspot.com/-8h1PgjBKi24/UCM5Cu1podI/AAAAAAAAAAc/GXwOOptiypY/s1600/nature-wallpaper-hd.jpg"
-	, "https://i.pinimg.com/originals/a1/f4/be/a1f4be2f44d9da33208c5572aa1533bb.jpg"
-	, "https://www.bu.edu/eng/files/2016/02/waveguide_1.jpg"
-], {duration: 3000, fade: 1500});
+	"https://unsplash.it/g/1600?image=1073"
+	, "https://unsplash.it/g/1600?image=1068"
+	, "https://unsplash.it/g/1600?image=1011"
+], {duration: 3000, fade: 750});
 
 /*
 * Basic Count Down to Date and Time
+* Author: @mrwigster / trulycode.com
+*
 * INFO: change the "date:"-value to your desired target date-time
 */
 !function(a){a.fn.countdown=function(b,c){function d(){eventDate=Date.parse(f.date)/1e3,currentDate=Math.floor(a.now()/1e3),eventDate<=currentDate&&(c.call(this),clearInterval(interval)),seconds=eventDate-currentDate,days=Math.floor(seconds/86400),seconds-=60*days*60*24,hours=Math.floor(seconds/3600),seconds-=60*hours*60,minutes=Math.floor(seconds/60),seconds-=60*minutes,1==days?e.find(".timeRefDays").text("day"):e.find(".timeRefDays").text("days"),1==hours?e.find(".timeRefHours").text("hour"):e.find(".timeRefHours").text("hours"),1==minutes?e.find(".timeRefMinutes").text("minute"):e.find(".timeRefMinutes").text("minutes"),1==seconds?e.find(".timeRefSeconds").text("second"):e.find(".timeRefSeconds").text("seconds"),"on"==f.format&&(days=String(days).length>=2?days:"0"+days,hours=String(hours).length>=2?hours:"0"+hours,minutes=String(minutes).length>=2?minutes:"0"+minutes,seconds=String(seconds).length>=2?seconds:"0"+seconds),isNaN(eventDate)?(alert("Invalid date. Example: 30 Tuesday 2013 15:50:00"),clearInterval(interval)):(e.find(".days").text(days),e.find(".hours").text(hours),e.find(".minutes").text(minutes),e.find(".seconds").text(seconds))}var e=a(this),f={date:null,format:null};b&&a.extend(f,b),d(),interval=setInterval(d,1e3)}}(jQuery),$(document).ready(function(){
