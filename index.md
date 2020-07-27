@@ -66,7 +66,7 @@ layout: default
 $.backstretch([
 	"https://i.pinimg.com/originals/4a/25/93/4a2593c1025b2a7c03f3fe7ade09a2fb.png"
 	, "https://www.parkersoftware.com/wp-content/uploads/2018/05/background-2740731_1920-1024x571.jpg"
-	, "https://www.bu.edu/eng/files/2016/02/waveguide_1.jpg"
+	, "https://wallpaperplay.com/walls/full/3/7/c/177533.jpg"
 ], {duration: 3000, fade: 1500});
 
 /*
