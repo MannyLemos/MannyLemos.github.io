@@ -1,6 +1,6 @@
 <html lang="en">
+<h1>Manuel Lemos</h1>
 <head>
-	<h1>Manuel Lemos</h1>
 	<h4>Level 3<br>Mechatronics Engineering Student</h4>
 	<meta charset="utf-8">
 	<title>Dummy Page</title>
