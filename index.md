@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<!doctype html>
+<Mechatronics Engineering>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -66,12 +66,10 @@ $.backstretch([
 	"https://unsplash.it/g/1600?image=1073"
 	, "https://unsplash.it/g/1600?image=1068"
 	, "https://unsplash.it/g/1600?image=1011"
-], {duration: 3000, fade: 750});
+], {duration: 3000, fade: 1500});
 
 /*
 * Basic Count Down to Date and Time
-* Author: @mrwigster / trulycode.com
-*
 * INFO: change the "date:"-value to your desired target date-time
 */
 !function(a){a.fn.countdown=function(b,c){function d(){eventDate=Date.parse(f.date)/1e3,currentDate=Math.floor(a.now()/1e3),eventDate<=currentDate&&(c.call(this),clearInterval(interval)),seconds=eventDate-currentDate,days=Math.floor(seconds/86400),seconds-=60*days*60*24,hours=Math.floor(seconds/3600),seconds-=60*hours*60,minutes=Math.floor(seconds/60),seconds-=60*minutes,1==days?e.find(".timeRefDays").text("day"):e.find(".timeRefDays").text("days"),1==hours?e.find(".timeRefHours").text("hour"):e.find(".timeRefHours").text("hours"),1==minutes?e.find(".timeRefMinutes").text("minute"):e.find(".timeRefMinutes").text("minutes"),1==seconds?e.find(".timeRefSeconds").text("second"):e.find(".timeRefSeconds").text("seconds"),"on"==f.format&&(days=String(days).length>=2?days:"0"+days,hours=String(hours).length>=2?hours:"0"+hours,minutes=String(minutes).length>=2?minutes:"0"+minutes,seconds=String(seconds).length>=2?seconds:"0"+seconds),isNaN(eventDate)?(alert("Invalid date. Example: 30 Tuesday 2013 15:50:00"),clearInterval(interval)):(e.find(".days").text(days),e.find(".hours").text(hours),e.find(".minutes").text(minutes),e.find(".seconds").text(seconds))}var e=a(this),f={date:null,format:null};b&&a.extend(f,b),d(),interval=setInterval(d,1e3)}}(jQuery),$(document).ready(function(){
