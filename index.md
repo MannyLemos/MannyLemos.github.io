@@ -1,6 +1,6 @@
 <html>
 <body>
-	[Linkedin] (https://www.linkedin.com/in/manuel-lemos-31a821170/)
+	[Linkedin](https://www.linkedin.com/in/manuel-lemos-31a821170/)
 </body>
 	<h1><br><br> Manuel Lemos </h1>
 	<h4>Level 3<br>Mechatronics Engineering Student</h4>
