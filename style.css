@@ -6,7 +6,7 @@
   padding: 25px;
   }
   .parallax{
-  /*background: url("img/") no-repeat center;*/
+  background: url("https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") no-repeat center;*/
   background-size: cover;
   background-attachment: fixed;
   height: 250px;
