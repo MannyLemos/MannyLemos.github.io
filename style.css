@@ -1,7 +1,6 @@
 .container {
   display: inline-block;
   cursor: pointer;
-  align: left;
 }
 
 .bar1, .bar2, .bar3 {
