@@ -4,6 +4,8 @@
 }
 
 .bar1, .bar2, .bar3 {
+  display: flex;
+  align-items: left;
   width: 35px;
   height: 5px;
   text-align: left;
