@@ -1,6 +1,8 @@
 .container {
   display: inline-block;
   cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
   align-content: left;
 
 }
