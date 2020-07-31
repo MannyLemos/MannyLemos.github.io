@@ -1,7 +1,7 @@
 <html>
 	
 <body>
-<!--Dropdown Button-->
+/* Dropdown Button */
 .dropbtn {
   background-color: #3498DB;
   color: white;
@@ -11,18 +11,18 @@
   cursor: pointer;
 }
 
-<!--Dropdown button on hover & focus -->
+/* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
   background-color: #2980B9;
 }
 
-<!--The container <div> - needed to position the dropdown content-->
+/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-<!--Dropdown Content (Hidden by Default)-->
+/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -32,7 +32,7 @@
   z-index: 1;
 }
 
-<!--Links inside the dropdown-->
+/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -40,10 +40,10 @@
   display: block;
 }
 
-<!--Change color of dropdown links on hover-->
+/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
 
-<!--Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button)-->
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 </body>
 	
