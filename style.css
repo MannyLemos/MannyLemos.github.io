@@ -1,17 +1,19 @@
 .container {
+  max-width: 100%;
   display: inline-block;
   cursor: pointer;
   padding-right:0;
   padding-left:0;
   margin-right:auto;
-  margin-left:auto
+  margin-left:auto;
 }
 
 .container-fluid {
+    max-width: 100%;
     padding-right:0;
     padding-left:0;
     margin-right:auto;
-    margin-left:auto
+    margin-left:auto;
 }
 
 /* Dropdown Button */
