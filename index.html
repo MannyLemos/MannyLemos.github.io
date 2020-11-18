@@ -133,39 +133,44 @@
 </head>
 	
 <body>
-<div class="dropdown">
-<div align = "left">
-<button onclick="myFunction()" class="dropbtn">Explore</button>
-<div id="myDropdown" class="dropdown-content">
-<a href="https://www.linkedin.com/in/manuel-lemos-31a821170/"target="_blank">Linkedin</a>
-<a href="#about">About Me</a>
-<a href="#proficiencies">Proficiencies</a>
-<a href="#projects">Projects & Accomplishments</a>
-<a href="https://drive.google.com/file/d/1L8nLmR5WgyKTJ2UoumHYpn2lTnl-l_sV/view?usp=sharing"target="_blank">Resume</a>
-<a href="#contact">Contact Information</a>
-  </div>
-</div>
+	<div class="dropdown">
+		<div align = "left">
+			<button onclick="myFunction()" class="dropbtn">Explore</button>
+			<div id="myDropdown" class="dropdown-content">
+			<a href="https://www.linkedin.com/in/manuel-lemos-31a821170/"target="_blank">Linkedin</a>
+			<a href="#about">About Me</a>
+			<a href="#proficiencies">Proficiencies</a>
+			<a href="#projects">Projects & Accomplishments</a>
+			<a href="https://drive.google.com/file/d/1L8nLmR5WgyKTJ2UoumHYpn2lTnl-l_sV/view?usp=sharing"target="_blank">Resume</a>
+			<a href="#contact">Contact Information</a>
+  		</div>
+	</div>
 
-<script>
-/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+	<script>
+	/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+	function myFunction() 
+	{
+  		document.getElementById("myDropdown").classList.toggle("show");
+	}
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) 
+	{
+  		if (!event.target.matches('.dropbtn')) 
+		{
+    			var dropdowns = document.getElementsByClassName("dropdown-content");
+    			var i;
+    			for (i = 0; i < dropdowns.length; i++) 
+			{
+      				var openDropdown = dropdowns[i];
+      				if (openDropdown.classList.contains('show')) 
+				{
+        				openDropdown.classList.remove('show');
+      				}
+    			}
+  		}
+	}
+	</script>
 </body>
 
 <script>
@@ -303,7 +308,7 @@ $.backstretch([
                                     <div style="background-color:#594F4F" class="flip-card-front">
                                         <h1>Word</h1>
                                     </div>
-                                    <div style="background-color:#594F4F" class="flip-card-back">
+                                    <div style="background-color:#A55B53" class="flip-card-back">
                                         <p>Have used Word professionally while working for Hoffer Mechanical. Used to replace old forms with updated fillable PDF's featuring macros and more.</p>
                                         <p>Comfortable with a great deal of word formatting design feature implementations to improve document readability</p>
                                     </div>
