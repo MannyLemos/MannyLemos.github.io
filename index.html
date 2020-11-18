@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-	
 	<meta charset="utf-8">
 	<title>Manuel Lemos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,89 +11,99 @@
 	<script src="parallax.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 	
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-<style>
-body {
-color: #000;
-font-size: 20px;
-background-color: #ddd;
-text-align: center;
-}
-h1, h2, h3, h4, h5, h6, label { color: #fff; }
-</style>	
-	
-<style>
 
-.headers{
-  font-family: "Arial", Arial, sans-serif;
-}
+	<style>
+		body 
+		{
+			color: #000;
+			font-size: 20px;
+			background-color: #ddd;
+			text-align: center;
+		}
+		h1, h2, h3, h4, h5, h6, label { color: #fff; }
+
+		.headers
+		{
+  			font-family: "Arial", Arial, sans-serif;
+		}
    
+		.dropbtn 
+		{
+  			margin-left:  5px;
+  			margin-top:  5px;
+  			background-color: #3498DB;
+  			color: white;
+  			padding: 16px;
+  			font-size: 16px;
+  			border: none;
+  			cursor: pointer;
+		}
 
-.dropbtn {
-  margin-left:  5px;
-  margin-top:  5px;
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
+		.dropbtn:hover, .dropbtn:focus {}
 
-.dropbtn:hover, .dropbtn:focus {
-}
+		.dropdown 
+		{
+  			colour: black;
+  			position: relative;
+  			display: inline-block;
+		}
 
-.dropdown {
-  colour: black;
-  position: relative;
-  display: inline-block;
-}
+		.dropdown-content 
+		{
+ 	 		display: none;
+  			position: absolute;
+  			min-width: 160px;
+  			overflow: auto;
+  			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  			z-index: 1;
+		}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+		.dropdown-content a 
+		{
+  			margin-left:  5px;
+  			color: black;
+  			background-color: white;
+  			font-size: 16px;
+  			padding: 12px 16px;
+  			text-decoration: none;
+  			display: block;
+		}
 
-.dropdown-content a {
-  margin-left:  5px;
-  color: black;
-  background-color: white;
-  font-size: 16px;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+		.dropdown a:hover 
+		{
+			background-color: #ddd;
+		}
+		
+		.show 
+		{
+			display: block;
+		}
+		
+		.flip-card 
+		{
+			background-color: transparent;
+			width: 310px;
+  			height: 300px;
+  			perspective: 1000px;
+		}
 
-.dropdown a:hover {background-color: #ddd;}
+		.flip-card-inner 
+		{
+  			position: relative;
+  			width: 100%;
+  			height: 100%;
+  			text-align: center;
+  			transition: transform 0.6s;
+  			transform-style: preserve-3d;
+  			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
 
-.show {display: block;}
-
-.flip-card {
-  background-color: transparent;
-  width: 310px;
-  height: 300px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
+		.flip-card:hover .flip-card-inner 
+		{
   transform: rotateY(180deg);
 }
 
