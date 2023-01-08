@@ -1,0 +1,39 @@
+<div *ngFor="let options of respOptions" [ngClass]="options.viewClasses" class="flex-column align-items-center text-center vw-90 mx-auto">
+    <h1 [ngClass]="options.titleClasses" class="mb-5 current-mode-font-color"><span class="current-mode-font-color bold">My</span> Projects</h1>
+    <div class="d-flex vw-90" 
+        [ngClass]="{'justify-content-center flex-wrap': !options.displayInColumn, 'flex-column  align-items-center': options.displayInColumn}"
+        *ngIf="projects$ | async as projects">
+        <div *ngFor="let project of projects" class="card project-card m-3"
+            [ngClass]="{'m-3': !options.displayInColumn, 'mb-3': options.displayInColumn}">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title font-weight-bold text-left project-title" [title]="project.name">
+                    {{project.name}}
+                </h5>
+                <h6 class="card-subtitle mb-2 font-weight-lighter text-left">
+                    <div class="logo-box">
+                        <div *ngFor="let src of project.tool_src; let i = index">
+                            <img class="tool-logo" src={{src}} title="{{project.tool_name[i]}}">
+                        </div>
+                    </div>
+                </h6>
+                <p class="card-text text-left description">
+                    {{project.description}}
+                </p>
+                <div class="project-link-box">
+                    <a [href]="project.link1" target="_blank" *ngIf="project.link1" class="btn btn-dark mr-2 project-button">
+                        <i class="fa-lg mr-1 far fa-eye"></i>
+                        {{project.link1_name}}
+                    </a>
+                    <a [href]="project.link2" target="_blank" *ngIf="project.link2" class="btn btn-dark project-button">
+                        <i class="fa-lg mr-1 fab fa-github-alt"></i>
+                        {{project.link2_name}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button *ngIf="isHome$ | async" routerLink="/projects" class="mt-3 mb-5 btn bold light-border current-mode-button current-mode-font-color">
+        See More Projects
+        <i class="ml-1 fas fa-angle-right"></i>
+    </button>
+</div>

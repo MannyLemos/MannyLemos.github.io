@@ -1,0 +1,48 @@
+/* Global Mode Color Variables
+==================================== */
+:root {
+    --theme-background: #171a2b;
+    --theme-primary: #C4C3D0;
+    --theme-secondary: #e60877;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Nunito', Arial, Verdana, Geneva, Tahoma, sans-serif;
+    background: #171a2b;
+    /*background-image: radial-gradient(black 5.5%, transparent 0);*/
+    background-size: 30px 30px;
+}
+
+.vw-90 {
+    width: 90vw;
+}
+
+.vw-80 {
+    width: 80vw;
+}
+
+.vw-70 {
+    width: 80vw;
+}
+
+.min-vh-10 {
+    min-height: 10vh;
+}
+
+/* Font Stylings
+==================================== */
+.bold {font-weight: bold;}
+.light {font-weight: lighter;}
+.light-border {border: 1; border-color: var(--theme-primary);}
+.current-mode-font-color {color: var(--theme-primary);}
+.current-mode-lightup-font:hover {color: var(--theme-secondary);}
+.current-mode-button {color: var(--theme-primary);}
+.current-mode-button:hover {color: #FFFFFF; background-color: var(--theme-secondary); border-color: transparent}
+.current-mode-icon {color: var(--theme-primary); font-size: x-large;}
+.current-mode-icon:hover {transform: scale(1.2);}
+.current-mode-icon:hover {color: var(--theme-secondary);}

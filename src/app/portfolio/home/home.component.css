@@ -1,0 +1,10 @@
+.min-vh-95 {
+    height: 95vh;
+}
+
+img.fit {
+  object-fit: contain;
+  height: auto;
+  width: 100px;
+  margin-left: 3em;
+}

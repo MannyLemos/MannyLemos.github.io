@@ -1,0 +1,102 @@
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    width: min(85vw, 600px);
+    justify-content: center;
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.heading-bold {
+    font-weight: bold;
+    color: #4c5265;
+}
+
+.heading-light {
+    font-weight: lighter;
+    color: #4c5265;
+}
+
+.skill-card {
+    width: 100%;
+    height: auto;
+    background-color: #e7e7e7;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+.skill-card::after {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.skill-card:hover::after {
+    opacity: 1;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.skill-title {
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    height: 100%;
+    font-size: large;
+}
+
+.skill-dropdown {
+    background-color: #4c5265;
+    transform: rotate(0deg);
+    border-color: inherit;
+    border-radius: .2em;
+    color: white;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotated{
+    background-color: #4c5265;
+    transform: rotate(180deg);
+    border-color: inherit;
+    border-radius: .2em;
+    color: white;
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.rotated:hover, .skill-dropdown:hover {
+    background-color: #292b2c;
+    scale: 1.1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.hide {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.description-content {
+    display: flex;
+    text-align: left;
+    white-space: pre-line;
+}

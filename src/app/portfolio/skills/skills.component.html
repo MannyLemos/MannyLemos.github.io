@@ -1,0 +1,22 @@
+<div *ngFor="let options of respOptions" [ngClass]="options.viewClasses" class="flex-column align-items-center justify-content-center text-center vw-90 mx-auto">
+    <h1 [ngClass]="options.titleClasses" class="mb-5 current-mode-font-color"><span class="current-mode-font-color bold">My</span> Skills</h1>
+    <div class="skill-box" [ngClass]="{'justify-content-center flex-wrap': !options.displayInColumn, 'flex-column  align-items-center': options.displayInColumn}"
+        *ngIf="skills$ | async as skills">
+        <div *ngFor="let skill of skills" class="card skill-card m-3" [ngClass]="{'m-3': !options.displayInColumn, 'mb-3': options.displayInColumn}">
+            <div class="main-card">
+                <div class="card-header">
+                    <div class="skill-title" [title]="skill.name">
+                        {{skill.name}}
+                        <i [ngClass]="skill.stack.icon"></i>
+                    </div>
+                    <button id={{skill.name}} onclick="toggleSkills(this.id)" class="skill-dropdown" unselectable="on">
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                </div>
+                <div id='child-{{skill.name}}' class="description-content hide"> <!--- the prefix to {{skill.name}} is irrelevant. Simply used to uniquely identify the div -->
+                    <p class="ml-3">{{skill.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+// Build the app in development mode
+ng build
+
+// Build the app in production mode
+ng build --prod
+
+// Deploy to a root 
+// ie "mannylemos.github.io/Portfolio-Revision-1/" is the github page I am deploying to 
+// so I use --baseHref="/Portfolio-Revision-1/"
+ng build --baseHref="/Portfolio-Revision-1/" --prod
+
+// Create a local instance of the angular app -> http://localhost:<port>
+ng serve
