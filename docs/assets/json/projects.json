@@ -3,9 +3,9 @@
         "name": "Cyclops Ride Assist",
         "tool_name": ["Python", "RaspberryPi", "Google Cloud Platform", "Autodesk Inventor", "Prusa Slicer"],
         "tool_src": ["./assets/images/python.PNG", "./assets/images/pi.PNG", "./assets/images/google_cloud_platform.PNG", "./assets/images/inventor.PNG", "./assets/images/prusa_slicer.PNG"],
-        "description": "Ongoing mechatronics capstone project which provides real-time bicycle crash detection and approaching object monitoring.",
-        "link1": "",
-        "link1_name": "",
+        "description": "Mechatronics engineering capstone project. A real time bicycle mounted ride monitoring device. Consists of a multithreaded python program to drive real time data collection, video recording, crash detection, and rear vehicle detection",
+        "link1": "http://youtu.be/2H2faZxTyGI",
+        "link1_name": "Demo",
         "link2": "https://github.com/amosyu2000/cyclops",
         "link2_name": "Code",
         "featured": true
