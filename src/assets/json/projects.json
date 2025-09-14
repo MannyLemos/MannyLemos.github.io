@@ -1,5 +1,27 @@
 [
     {
+        "name": "MMA Paper Betting",
+        "tool_name": ["Python", "Next.js", "MongoDB", "Node.js", "Vercel"],
+        "tool_src": ["./assets/images/python.PNG", "./assets/images/nextjs.PNG", "./assets/images/mongodb.PNG", "./assets/images/nodejs.PNG", "./assets/images/vercel.PNG"],
+        "description": "Used Python with BS4 to scrape data into a mongoDB database, and analyze existing user bets. Created a full stack Next.js web app continuously deployed on Vercel enabling users to place fake money bets on upcoming fights and research historical fight(er) data.",
+        "link1": "https://ufc-picks.vercel.app/",
+        "link1_name": "Demo",
+        "link2": "",
+        "link2_name": "",
+        "featured": true
+    },
+    {
+        "name": "Project Management",
+        "tool_name": ["Handlebars", "Express", "Auth0", "MongoDB", "AWS S3", "Heroku"],
+        "tool_src": ["./assets/images/handlebars.PNG", "./assets/images/expressjs.PNG", "./assets/images/auth0.PNG", "./assets/images/mongodb.PNG", "./assets/images/s3.PNG", "./assets/images/heroku.PNG"],
+        "description": "A full stack project management web application. A publicly assible static site serving as the companies website. Authorized users can access a project management system featuring file uploading / previewing and timesheet tracking.",
+        "link1": "https://www.hoffermechanical.com/",
+        "link1_name": "Demo",
+        "link2": "",
+        "link2_name": "",
+        "featured": true
+    },
+    {
         "name": "Cyclops Ride Assist",
         "tool_name": ["Python", "RaspberryPi", "Google Cloud Platform", "Autodesk Inventor", "Prusa Slicer"],
         "tool_src": ["./assets/images/python.PNG", "./assets/images/pi.PNG", "./assets/images/google_cloud_platform.PNG", "./assets/images/inventor.PNG", "./assets/images/prusa_slicer.PNG"],
