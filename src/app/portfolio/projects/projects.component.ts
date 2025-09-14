@@ -4,9 +4,10 @@ import { HeaderService } from '../../core/services/header.service';
 import { ProjectsService } from '../../core/services/projects.service';
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+    selector: 'app-projects',
+    templateUrl: './projects.component.html',
+    styleUrls: ['./projects.component.css'],
+    standalone: false
 })
 export class ProjectsComponent {
   isHome$ = this.headerService.isHome();

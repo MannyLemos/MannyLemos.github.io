@@ -29,7 +29,7 @@
 }
 
 .project-title {
-    white-space: nowrap;
+    white-space: normal;
     text-overflow: ellipsis;
     max-width: 20ch;
 }

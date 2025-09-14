@@ -16,8 +16,8 @@
             </div>
             <!--- BIO ABOUT -->
             <div *ngFor="let content of bio.about">
-                <h4 class="text-left current-mode-font-color" *ngIf="!options.useSmallerHeadings">{{content}}</h4>
-                <h5 class="text-left current-mode-font-color" *ngIf="options.useSmallerHeadings">{{content}}</h5>
+                <h5 class="text-left current-mode-font-color" *ngIf="!options.useSmallerHeadings">{{content}}</h5>
+                <h6 class="text-left current-mode-font-color" *ngIf="options.useSmallerHeadings">{{content}}</h6>
             </div>
             <button class="mt-3 mb-5 btn bold light-border current-mode-button current-mode-font-color" routerLink="/" fragment="projects">
                 See My Work

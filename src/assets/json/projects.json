@@ -1,5 +1,38 @@
 [
     {
+        "name": "MMA Paper Betting App",
+        "tool_name": ["Python", "Next.js", "MongoDB", "Node.js", "Vercel", "RaspberryPi"],
+        "tool_src": ["./assets/images/python.PNG", "./assets/images/nextjs.PNG", "./assets/images/mongodb.PNG", "./assets/images/nodejs.PNG", "./assets/images/vercel.PNG", "./assets/images/pi.PNG"],
+        "description": "Used Python with BS4 to scrape data into a mongoDB database. Used a headless RaspberryPi and cron to schedule the script to run on a fixed schedule. Created a full stack Next.js web app continuously deployed on Vercel. Users can place paper bets on upcoming fights, research historical fight(er) data, and view their past betting outcomes.",
+        "link1": "https://ufc-picks.vercel.app/",
+        "link1_name": "Demo",
+        "link2": "",
+        "link2_name": "",
+        "featured": true
+    },
+    {
+        "name": "Makecode Sidescroller Tutorial",
+        "tool_name": ["MakeCode", "JavaScript"],
+        "tool_src": ["./assets/images/makecode.PNG", "./assets/images/js.PNG"],
+        "description": "Created a makecode skill map in coordination with FairChanceLearning. Empowered students to build a sidescrolling racing game with countdown, opponents, drs speed boosting, and finish line. Bypassed file size limits using JS to enable higher resolution graphics.",
+        "link1": "https://arcade.makecode.com/--skillmap#github:Fair-Chance-Learning/Race-Into-Stem-Skillmap/skillmap",
+        "link1_name": "Demo",
+        "link2": "https://github.com/Fair-Chance-Learning/Race-Into-Stem-Skillmap",
+        "link2_name": "Code",
+        "featured": true
+    },
+    {
+        "name": "Project Management App",
+        "tool_name": ["Handlebars", "Express", "Auth0", "MongoDB", "AWS S3", "Heroku"],
+        "tool_src": ["./assets/images/handlebars.PNG", "./assets/images/expressjs.PNG", "./assets/images/auth0.PNG", "./assets/images/mongodb.PNG", "./assets/images/s3.PNG", "./assets/images/heroku.PNG"],
+        "description": "A full stack project management web application. A publicly assible static site serving as a customer view. Authorized users can access a project management system featuring file uploading / previewing and timesheet tracking.",
+        "link1": "https://www.hoffermechanical.com/",
+        "link1_name": "Demo",
+        "link2": "",
+        "link2_name": "",
+        "featured": true
+    },
+    {
         "name": "Cyclops Ride Assist",
         "tool_name": ["Python", "RaspberryPi", "Google Cloud Platform", "Autodesk Inventor", "Prusa Slicer"],
         "tool_src": ["./assets/images/python.PNG", "./assets/images/pi.PNG", "./assets/images/google_cloud_platform.PNG", "./assets/images/inventor.PNG", "./assets/images/prusa_slicer.PNG"],
@@ -69,7 +102,7 @@
         "name": "Door Accessibility Device",
         "tool_name": ["Autodesk Inventor"],
         "tool_src": ["./assets/images/inventor.PNG"],
-        "description": "A basic device making use of the positive relationship between torque and radius was conceptualized. Engineering drawings were made, and a 3D model was created in Inventor. A proof of concept, low fidelity, prototype was created. A high fidelity, lightweight, and robust final product was created and delivered.",
+        "description": "A basic device making use of the positive relationship between torque and radius was conceptualized. Engineering drawings were made, and a 3D model was created in Inventor. A proof of concept, low fidelity, prototype was manufactured. A high fidelity, lightweight, and robust final product was manufactured and delivered.",
         "link1": "",
         "link1_name": "",
         "link2": "",
