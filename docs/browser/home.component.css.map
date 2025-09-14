@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/portfolio/home/home.component.css"],
+  "sourcesContent": [".min-vh-95 {\n    height: 95vh;\n}\n\nimg.fit {\n  object-fit: contain;\n  height: auto;\n  width: 100px;\n  margin-left: 3em;\n}"],
+  "mappings": ";AAAA,CAAC;AACG,UAAQ;AACZ;AAEA,GAAG,CAAC;AACF,cAAY;AACZ,UAAQ;AACR,SAAO;AACP,eAAa;AACf;",
+  "names": []
+}

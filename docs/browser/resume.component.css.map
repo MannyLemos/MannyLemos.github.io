@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/portfolio/resume/resume.component.css"],
+  "sourcesContent": [".heading-bold {\n    font-weight: bold;\n    color: #4c5265;\n}\n\n.heading-light {\n    font-weight: lighter;\n    color: #4c5265;\n}\n\n.project-card {\n    width: 290px;\n    height: auto;\n    background-color: #e7e7e7;\n    box-shadow: 0 1px 2px rgba(0,0,0,0.15);\n    transition: transform .2s;\n}\n.project-card::after {\n    box-shadow: 0 5px 15px rgba(0,0,0,0.3);\n    opacity: 0;\n    transition: opacity 0.3s ease-in-out;\n}\n.project-card:hover::after {\n    opacity: 1;\n}\n.project-card:hover {\n    scale: 1.05;\n\n}\n\n.project-title {\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    max-width: 20ch;\n}\n\n.resume {\n    width: 100%;\n}\n\na:visited {\n    color: white;\n}\n"],
+  "mappings": ";AAAA,CAAC;AACG,eAAa;AACb,SAAO;AACX;AAEA,CAAC;AACG,eAAa;AACb,SAAO;AACX;AAEA,CAAC;AACG,SAAO;AACP,UAAQ;AACR,oBAAkB;AAClB,cAAY,EAAE,IAAI,IAAI,KAAK,CAAC,EAAC,CAAC,EAAC,CAAC,EAAC;AACjC,cAAY,UAAU;AAC1B;AACA,CAPC,YAOY;AACT,cAAY,EAAE,IAAI,KAAK,KAAK,CAAC,EAAC,CAAC,EAAC,CAAC,EAAC;AAClC,WAAS;AACT,cAAY,QAAQ,KAAK;AAC7B;AACA,CAZC,YAYY,MAAM;AACf,WAAS;AACb;AACA,CAfC,YAeY;AACT,SAAO;AAEX;AAEA,CAAC;AACG,eAAa;AACb,iBAAe;AACf,aAAW;AACf;AAEA,CAAC;AACG,SAAO;AACX;AAEA,CAAC;AACG,SAAO;AACX;",
+  "names": []
+}

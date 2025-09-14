@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:script/global:scripts.js"],
+  "sourcesContent": ["// Show or Hide the skill description\nfunction toggleSkills(id) {\n    const description = document.getElementById(\"child-\" + id);\n    if (description.classList.contains(\"hide\")) {\n        description.classList.remove(\"hide\")\n    } else {\n        description.classList.add(\"hide\")\n    }\n\n    // Rotate the button \n    const button = document.getElementById(id);\n    if (button.className == \"btn btn-dark rotated\") {\n        button.className = \"btn btn-dark skill-dropdown\";\n    } else {\n        button.className = \"btn btn-dark rotated\";\n    }\n    return false;\n}"],
+  "mappings": "AACA,SAAS,aAAa,IAAI;AACtB,QAAM,cAAc,SAAS,eAAe,WAAW,EAAE;AACzD,MAAI,YAAY,UAAU,SAAS,MAAM,GAAG;AACxC,gBAAY,UAAU,OAAO,MAAM;AAAA,EACvC,OAAO;AACH,gBAAY,UAAU,IAAI,MAAM;AAAA,EACpC;AAGA,QAAM,SAAS,SAAS,eAAe,EAAE;AACzC,MAAI,OAAO,aAAa,wBAAwB;AAC5C,WAAO,YAAY;AAAA,EACvB,OAAO;AACH,WAAO,YAAY;AAAA,EACvB;AACA,SAAO;AACX;",
+  "names": []
+}

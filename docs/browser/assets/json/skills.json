@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Programming",
+        "stack": {
+            "name": "Code",
+            "icon": "ml-1 fas fa-code"
+        },
+        "description": "Languages: Python, C, Visual Basic, SQL, JavaScript, Matlab, HTML, CSS.\nFrameworks: Angular, React, Bootstrap.\nDeveloper Tools: Git, VS Code, linux shell, Google Cloud Platform.",
+        "sourceUrl": "",
+        "previewUrl": "",
+        "featured": true
+    },
+    {
+        "name": "CAD Modelling",
+        "stack": {
+            "name": "3D-Cube",
+            "icon": "ml-1 fas fa-cube"
+        },
+        "description": "Software: Inventor, AutoCAD, Creo.\n",
+        "sourceUrl": "",
+        "previewUrl": "",
+        "featured": true
+    },
+    {
+        "name": "Circuit Design",
+        "stack": {
+            "name": "lightening-bolt",
+            "icon": "ml-1 fas fa-bolt"
+        },
+        "description": "Software: LTspice, Simulink.\n",
+        "sourceUrl": "",
+        "previewUrl": "",
+        "featured": true
+    }
+]
