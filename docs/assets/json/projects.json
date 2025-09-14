@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Cyclops Ride Assist",
+        "tool_name": ["Python", "RaspberryPi", "Google Cloud Platform", "Autodesk Inventor", "Prusa Slicer"],
+        "tool_src": ["./assets/images/python.PNG", "./assets/images/pi.PNG", "./assets/images/google_cloud_platform.PNG", "./assets/images/inventor.PNG", "./assets/images/prusa_slicer.PNG"],
+        "description": "Mechatronics engineering capstone project. A real time bicycle mounted ride monitoring device. Consists of a multithreaded python program to drive real time data collection, video recording, crash detection, and rear vehicle detection",
+        "link1": "http://youtu.be/2H2faZxTyGI",
+        "link1_name": "Demo",
+        "link2": "https://github.com/amosyu2000/cyclops",
+        "link2_name": "Code",
+        "featured": true
+    },
+    {
+        "name": "Pacemaker",
+        "tool_name": ["Simulink", "MongoDB", "Vue", "Electron", "Node.js"],
+        "tool_src": ["./assets/images/simulink.PNG", "./assets/images/mongodb.PNG", "./assets/images/vue.PNG", "./assets/images/electron.PNG", "./assets/images/nodejs.PNG"],
+        "description": "A pacemaker designed using simulink and built on the K64F MCU. A rest api was built using Express, MongoDB, and Node.JS",
+        "link1": "https://www.youtube.com/watch?v=Ym9aaLC6m6M",
+        "link1_name": "Demo",
+        "link2": "https://github.com/MannyLemos/Pacemaker",
+        "link2_name": "Code",
+        "featured": true
+    },
+    {
+        "name": "Digital Signal Processing",
+        "tool_name": ["Verilog", "Quartus Prime"],
+        "tool_src": ["./assets/images/verilog.PNG", "./assets/images/quartus.PNG"],
+        "description": "An FIR filter was designed by analyzing audio samples in matlab. Then an echo machine was implemented using shift registers.",
+        "link1": "https://github.com/MannyLemos/VerilogHDL",
+        "link1_name": "Verilog",
+        "link2": "https://github.com/MannyLemos/VerilogHDL/blob/main/Project%203.zip",
+        "link2_name": "Code",
+        "featured": true
+    },
+    {
+        "name": "Embedded Cooling System",
+        "tool_name": ["C", "STM32", "Keil"],
+        "tool_src": ["./assets/images/c.PNG", "./assets/images/stm32.PNG", "./assets/images/keil.PNG"],
+        "description": "A digital thermometer circuit was constructed to interface with a microcontroller. A fan was triggered to cool ambient conditions when a desired temperature was exceeded.",
+        "link1": "",
+        "link1_name": "",
+        "link2": "https://github.com/MannyLemos/Mechtron-3TA4/tree/main/Lab%204",
+        "link2_name": "Code",
+        "featured": true
+    },
+    {
+        "name": "Old Website",
+        "tool_name": ["html", "css", "javascript", "bootstrap"],
+        "tool_src": ["./assets/images/html.PNG", "./assets/images/css.PNG", "./assets/images/js.PNG", "./assets/images/bootstrap.PNG"],
+        "description": "First attempt at front end web development. Built using HTML, CSS, and Javascript.",
+        "link1": "https://mannylemos.github.io/Old-Website/",
+        "link1_name": "Demo",
+        "link2": "https://github.com/MannyLemos/Old-Website",
+        "link2_name": "Code",
+        "featured": true
+    },
+    {
+        "name": "Prosthetic Hand",
+        "tool_name": ["Autodesk Inventor", "Prusa Slicer"],
+        "tool_src": ["./assets/images/inventor.PNG", "./assets/images/prusa_slicer.PNG"],
+        "description": "Designed and simulated a two-finger prosthetic hand and geartrain of specified ratio under strict size constraints. The components were then sliced, 3D printed, sanded, lubed, and assembled to create a functional prosthetic hand.",
+        "link1": "https://youtu.be/a2vjCYIaA90",
+        "link1_name": "Demo",
+        "link2": "https://github.com/MannyLemos/Prosthetic-Hand",
+        "link2_name": "Code",
+        "featured": true
+    },
+    {
+        "name": "Door Accessibility Device",
+        "tool_name": ["Autodesk Inventor"],
+        "tool_src": ["./assets/images/inventor.PNG"],
+        "description": "A basic device making use of the positive relationship between torque and radius was conceptualized. Engineering drawings were made, and a 3D model was created in Inventor. A proof of concept, low fidelity, prototype was created. A high fidelity, lightweight, and robust final product was created and delivered.",
+        "link1": "",
+        "link1_name": "",
+        "link2": "",
+        "link2_name": "",
+        "featured": true
+    },
+    {
+        "name": "SDS Online Library",
+        "tool_name": ["Google Cloud"],
+        "tool_src": ["./assets/images/drive.PNG"],
+        "description": "Made use of the free online cloud storage to create a high-quality safety data sheet repository. Presented the project to Hoffer Mechanical employees in conjunction with one on one technological support to resolve any issues. Created a tutorial on drive maintenance along with a dating system.",
+        "link1": "https://drive.google.com/open?id=1Vec9rYGisdzDiW3PKoo8ndWKTjEg1Z9j",
+        "link1_name": "Demo",
+        "link2": "",
+        "link2_name": "",
+        "featured": true
+    }
+]
