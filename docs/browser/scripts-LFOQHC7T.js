@@ -1,0 +1,1 @@
+function toggleSkills(s){const t=document.getElementById("child-"+s);t.classList.contains("hide")?t.classList.remove("hide"):t.classList.add("hide");const e=document.getElementById(s);return e.className=="btn btn-dark rotated"?e.className="btn btn-dark skill-dropdown":e.className="btn btn-dark rotated",!1}
